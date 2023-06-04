@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .container{
+        @apply p-4 md:px-8
+    }
+    .nav-link{
+        @apply text-center
+    }
+    .nav-link:hover{
+        @apply text-gray-300
+    }
+    .primary-btn{
+        @apply p-2 bg-black text-white w-[100px] m-auto rounded-lg mb-4 mt-4
+    }
+    .secondary-btn{
+        @apply p-2 border text-white md:text-black w-[100px] m-auto rounded-lg mb-4
+    }
+    .description{
+        @apply text-white text-xs w-[40ch]
+    }
+}
