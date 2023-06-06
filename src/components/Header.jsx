@@ -1,6 +1,7 @@
 import React from 'react'
 import NavMenuIcon from '../assets/nav-menu-icon.svg'
 import CartIcon from '../assets/cart.svg'
+import SiteLogo from '../assets/site-icon.svg'
 
 function Header() {
     //variables
@@ -37,8 +38,8 @@ function Header() {
   return (
    <>
     <div className='container flex justify-between items-center md:hidden'>
-        <div className="site-logo font-bold">
-            Shoe Store
+        <div className="site-logo font-bold w-[150px]">
+           <img src={SiteLogo} alt="site logo" />
         </div>
       
         <div className="mobile-nav-menu hidden absolute mt-[300px] rounded-lg text-white bg-slate-600 p-2 w-[90%] h-auto" id='mobile-nav-menu'>
@@ -78,12 +79,12 @@ function Header() {
     </div>
            
             {/**MEDIUM SCREEN HEADER */}
-    <div className='container hidden md:flex justify-between items-center -mt-4'>
-        <div className="site-logo font-bold text-xl">
-            Shoe Store
+    <div className='container hidden w-[100%] h-[100px] md:flex justify-between items-center'>
+    <div className="site-logo font-bold w-[150px]">
+           <img src={SiteLogo} alt="site logo" />
         </div>
       
-        <div className="nav-menu flex justify-center items-center gap-4" id='nav-menu'>
+        <div className="nav-menu flex justify-center items-center gap-4 text-sm" id='nav-menu'>
             <p className="nav-link"><a href="#">Home</a></p>
             <p className="nav-link"><a href="#">Shop</a></p>
             <p className="nav-link"><a href="#">About</a></p>
