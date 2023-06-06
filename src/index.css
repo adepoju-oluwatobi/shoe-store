@@ -21,4 +21,7 @@
     .description{
         @apply text-white text-[8px] w-[40ch]
     }
+    .heading{
+        @apply font-bold text-3xl md:text-4xl lg:text-5xl pb-4
+    }
 }
