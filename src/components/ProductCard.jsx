@@ -5,9 +5,9 @@ function ProductCard({product}) {
     console.log(product)
   return (
     <div className='group'>
-        <div className='w-full h-full cursor-pointer overflow-hidden'>
+        <div className='w-[100px] h-[150px] cursor-pointer overflow-hidden'>
             <img 
-            className='w-full h-96 object-cover group-hover:scale-110 duration-500'
+            className='w-full h-full object-contain group-hover:scale-110 duration-500'
             src={product.image} alt="product image" />
         </div>
         <div className=''>
