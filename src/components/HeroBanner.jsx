@@ -3,7 +3,7 @@ import React from 'react'
 function HeroBanner() {
   return (
    <div className=' w-[100%] h-[100%] px-4 m-auto'>
-     <div className='bg-[url(./assets/hero-banner-big.png)] bg-no-repeat bg-contain container w-[100%] h-[100%] m-auto'>
+     <div className='bg-[url(./assets/hero-banner-big.png)] bg-no-repeat bg-cover container w-[100%] h-[100%] m-auto'>
         <div>
             <p className='text-white font-bold text-lg w-[15ch]'>MORDERN SHOE STORE</p>
         </div>
