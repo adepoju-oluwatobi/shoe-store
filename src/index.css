@@ -19,9 +19,9 @@
         @apply p-2 border text-white md:text-black w-[100px] m-auto rounded-lg mb-4
     }
     .description{
-        @apply text-white text-[8px] w-[40ch]
+        @apply text-white text-xs w-[40ch] md:text-sm
     }
     .heading{
-        @apply font-bold text-3xl md:text-4xl lg:text-5xl pb-4
+        @apply font-bold text-lg
     }
 }

@@ -5,7 +5,7 @@ function HeroBanner() {
    <div className=' w-[100%] h-[100%] px-4 m-auto'>
      <div className='bg-[url(./assets/hero-banner-big.png)] bg-no-repeat bg-cover container w-[100%] h-[100%] m-auto'>
         <div>
-            <p className='text-white font-bold text-lg w-[15ch]'>MORDERN SHOE STORE</p>
+            <p className='text-white font-bold text-xl md:text-2xl w-[30ch]'>MORDERN SHOE STORE</p>
         </div>
         <div>
             <p className='description'>
@@ -14,7 +14,7 @@ function HeroBanner() {
             </p>
         </div>
         <div>
-            <button className='primary-btn text-[8px]'>Shop Now</button>
+            <button className='primary-btn text-xs md:text-sm'>Shop Now</button>
         </div>
     </div>
    </div>
