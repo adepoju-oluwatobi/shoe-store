@@ -13,12 +13,12 @@
         @apply text-gray-300
     }
     .primary-btn{
-        @apply p-2 bg-black text-white w-[100px] m-auto rounded-lg mb-4 mt-4
+        @apply p-2 bg-black text-white w-[100px] m-auto rounded-lg mb-4 mt-2
     }
     .secondary-btn{
         @apply p-2 border text-white md:text-black w-[100px] m-auto rounded-lg mb-4
     }
     .description{
-        @apply text-white text-xs w-[40ch]
+        @apply text-white text-[8px] w-[40ch]
     }
 }
