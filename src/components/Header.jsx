@@ -59,6 +59,9 @@ function Header() {
            
              <div className="cart">
                 <img src={CartIcon} alt="cart" />
+                <div className='relative -top-6 left-3 bg-black text-white text-center rounded-full w-4 h-4 text-xs'>
+                    <p>0</p>
+                </div>
             </div>
 
             <div className="md:hidden nav-menu-icon cursor-pointer hidden" id='nav-menu-close-icon' onClick={closeMenu}>
@@ -97,6 +100,7 @@ function Header() {
             </div>
              <div className="cart">
                 <img src={CartIcon} alt="cart" />
+                
             </div>
        </div>
     </div>
